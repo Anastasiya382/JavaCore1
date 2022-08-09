@@ -1,5 +1,5 @@
 package Lesson1;
-
+//
 public class Dog extends Members{
     private int swimlimit;
 
