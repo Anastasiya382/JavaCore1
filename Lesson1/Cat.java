@@ -1,13 +1,13 @@
 package Lesson1;
 
-public class Cat extends Members {
+public class Cat extends Team {
     private int swimlimit;
 
 
     public Cat(String name) {
         this.name = name;
         this.runlimit = 100;
-        swimlimit = 100;
+        swimlimit = 20;
 
     }
 

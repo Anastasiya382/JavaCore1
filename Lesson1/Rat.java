@@ -1,18 +1,18 @@
 package Lesson1;
 
-public class Dog extends Team {
+public class Rat extends Team {
     private int swimlimit;
 
-    public Dog(String name) {
+    public Rat(String name) {
         this.name = name;
-        this.runlimit = 200;
-        swimlimit = 200;
+        this.runlimit = 100;
+        swimlimit = 80 ;
 
     }
 
     @Override
     public String voice() {
-        return "bark";
+        return "Pi-pi-pi";
     }
     @Override
     public boolean swim(int length) {
