@@ -1,5 +1,5 @@
 package Lesson1;
-//
+
 public class Track {
     private int length;
 
@@ -7,7 +7,7 @@ public class Track {
         this.length = length;
     }
 
-    public boolean doIt(Members animal) {
+    public boolean doIt(Team animal) {
         return animal.run(length);
     }
 }

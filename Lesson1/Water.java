@@ -7,7 +7,7 @@ public class Water {
         this.length = length;
     }
 
-    public boolean doIt(Members animal) {
+    public boolean doIt(Team animal) {
         if (animal instanceof Swim)
             return ((Swim) animal).swim(length);
         else

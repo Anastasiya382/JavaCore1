@@ -1,6 +1,6 @@
 package Lesson1;
-//
-public abstract class Members{
+
+public abstract class Team{
     public String name;
 
     public int runlimit;
